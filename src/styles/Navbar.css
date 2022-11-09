@@ -1,0 +1,117 @@
+.navbar-fixed-wrapper {
+  width: 100vw;
+  height: 6vw;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 6vw;
+  min-height: 3.5em;
+  background-color: rgb(248, 247, 253, 0.6);
+  backdrop-filter: blur(15px);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 20px rgba(177, 177, 177);
+  backdrop-filter: blur(12px);
+  z-index: 2;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16%;
+  height: 60%;
+  /* border: solid 1px red; */
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  width: 76%;
+  height: 50%;
+  /* border: solid 1px red; */
+}
+.nav-item-list {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45vw;
+}
+
+.nav-item-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  /* border: solid 1px blue; */
+  padding: 10px 13px;
+  /* margin: 0% 10%; */
+  transition: all 0.2s ease-in-out;
+}
+.nav-item-button:hover {
+  background-color: rgb(232, 230, 250);
+  color: rgb(111, 101, 232);
+}
+.nav-item-button:first-child {
+  background-color: rgb(232, 230, 250);
+  color: rgb(111, 101, 232);
+}
+.nav-item-dropdown {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-item-dropdown > div {
+  width: 8px;
+  height: 8px;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  transform: rotate(45deg);
+}
+.user-info {
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 100%;
+}
+.user-info button {
+  font-size: 16px;
+  font-weight: bold;
+  user-select: none;
+  transition: all 0.23s ease-in-out;
+}
+.user-info > .sign-in:hover {
+  background-color: rgb(238, 238, 238);
+}
+.user-info > .sign-up:hover {
+  box-shadow: 0px 0px 0.5em rgb(0, 0, 0, 0.5);
+}
+
+.sign-in {
+  background-color: rgb(248, 247, 253);
+  color: rgb(111, 101, 232);
+  border: solid 1px rgb(111, 101, 232);
+  padding: 5% 8%;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.sign-up {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5% 8%;
+  border: solid 1px rgb(111, 101, 232);
+  background-color: rgb(111, 101, 232);
+  color: white;
+  border-radius: 8px;
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "name":"750 Sq.Ft. Apartment in Andheri",
+        "img": "https://ibb.co/7rtCDRG", 
+        "rent":4600, 
+        "beds": 2, 
+        "when": 1659290400,
+        "bathrooms": 3, 
+        "type":"Apartment", 
+        "address": "Andheri West, Mumbai, MH", 
+        "isPopular":true
+    }
+]

@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(248, 247, 253);
+  overflow-x: hidden;
+}
+.light-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(180, 180, 180);
+}

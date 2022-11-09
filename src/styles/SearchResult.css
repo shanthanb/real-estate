@@ -1,0 +1,14 @@
+.search-result-container{
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  width: 100%;
+  display: grid;
+  justify-content: space-evenly;
+  /* grid-template-columns: auto auto auto; */
+  margin-top: 3em;
+  background-color:transparent;
+  column-gap: 2em;
+  row-gap: 2em;
+}
